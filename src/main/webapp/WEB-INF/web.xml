@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+?xml version="1.0" encoding="UTF-8"?>
 
 <web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
 
@@ -14,11 +14,23 @@
 
 
 
-    <welcome-file-list>
+    <servlet>
 
-        <welcome-file>index.jsp</welcome-file>
+        <servlet-name>HelloWorldServlet</servlet-name>
 
-    </welcome-file-list>
+        <servlet-class>HelloWorldServlet</servlet-class>
+
+    </servlet>
+
+
+
+    <servlet-mapping>
+
+        <servlet-name>HelloWorldServlet</servlet-name>
+
+        <url-pattern>/hello</url-pattern>
+
+    </servlet-mapping>
 
 
 
