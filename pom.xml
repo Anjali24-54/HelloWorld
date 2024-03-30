@@ -26,7 +26,7 @@
 
         <maven.compiler.target>11</maven.compiler.target>
 
-        <project.build.directory>/home/aanza/HelloWorld</project.build.directory>
+        <project.build.directory>target</project.build.directory>
 
     </properties>
 
